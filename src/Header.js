@@ -23,8 +23,9 @@ class Header extends Component {
               <nav>
                 <ul id="mainmenu">
                   <li><a href="/">Home</a></li>
-                  <li><NavLink to="/horarios" activeClassName="active">Horário de ônibus</NavLink></li>
+                  <li><NavLink to="/horarios" activeClassName="active">Horários</NavLink></li>
                   <li><NavLink to="/valetransporte" activeClassName="active">Vale Transporte</NavLink></li>
+                  <li><NavLink to="/biometria" activeClassName="active">Biometria Facial</NavLink></li>
                   <li><NavLink to="/duvidasFrequentes" activeClassName="active">Dúvidas</NavLink></li>
                   <li><NavLink to="/trabalheConosco" activeClassName="active">Trabalhe conosco</NavLink></li>
                   <li><NavLink to="/contato" activeClassName="active">Contato</NavLink></li>

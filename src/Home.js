@@ -36,29 +36,42 @@ class Home extends Component {
 
       <div id="content" className="no-bottom no-top">
 
-        <section id="section-slider" className="fullwidthbanner-container" aria-label="section-slider">
-          <div id="revolution-slider">
-            <ul>
-              <li data-transition="fade" data-slotamount={10} data-masterspeed={200} data-thumb>
-                <img src="assets/images-slider/wide3.jpg" />
-              </li>
+        <section style={{minHeight:760, backgroundImage:"url('assets/images-slider/wide.jpg')"}}>
 
-            </ul>
-          </div>
           <div className="col-md-12 posicao_botoes">
-          <div className="col-md-4" style={{}}>
-              <a href="estudante" style={{color: 'black', width:300, marginBottom:20, marginLeft:60}} className="botao_estudante">ESTUDANTE CADASTRO/RECADASTRO</a>
-              <a href="http://189.50.7.149:9090/varejoestudante/" style={{color: 'black', width:300, marginLeft:60}} className="botao_estudante">ESTUDANTE RECARGA DE CREDITOS</a>
+              <div className="row" style={{marginBottom:100, marginTop:30}}>
+                  <div className="col-md-4">
+                      <div style={{width:300, margin:'auto'}}>
+                          <img src="assets/images-slider/card1.jpg" />
+                      </div>
+                  </div>
+                  <div className="col-md-4">
+                      <div style={{width:300, margin:'auto'}}>
+                          <img src="assets/images-slider/card2.jpg" />
+                      </div>
+                  </div>
+                  <div className="col-md-4">
+                      <div style={{width:300, margin:'auto'}}>
+                          <img src="assets/images-slider/card3.jpg" />
+                      </div>
+                  </div>
+              </div>
+              <div className="row">
+                  <div className="col-md-4">
+                      <div style={{width:300, margin:'auto'}}><a href="estudante" style={{color: 'black', width:300, marginBottom:20}} className="botao_estudante">ESTUDANTE CADASTRO/RECADASTRO</a></div>
+                      <div style={{width:300, margin:'auto'}}><a href="http://189.50.7.149:9090/varejoestudante/" style={{color: 'black', width:300, marginBottom:20}} className="botao_estudante">ESTUDANTE RECARGA DE CREDITOS</a></div>
+                  </div>
+                  <div className="col-md-4">
+                      <div style={{width:300, margin:'auto'}}><a href="http://189.50.7.149:8080/wbc-st5/login.faces?uat=5" style={{color: 'black', width:300, marginBottom:20, backgroundColor:'#0094a2'}} className="botao_estudante">CARTÃO POPULAR RECARGA DE CRÉDITOS</a></div>
+                      <div style={{width:300, margin:'auto'}}><a href="escola" style={{color: 'black', width:300, backgroundColor:'orange', marginBottom:20}} className="botao_estudante">ESCOLA CADASTRO/RECADASTRO</a></div>
+                  </div>
+                  <div className="col-md-4">
+                      <div style={{width:300, margin:'auto'}}><a href="http://expressolorenzutti.com.br/valeTransporte" style={{color: 'black', width:300, marginBottom:20, backgroundColor:'lightgreen'}} className="botao_estudante">CADASTRE AQUI A SUA EMPRESA</a></div>
+                      <div style={{width:300, margin:'auto'}}><a href="http://189.50.7.149:8080/WebSigom/sltwebsigom" style={{color: 'black', width:300, backgroundColor:'lightgreen', marginBottom:20}} className="botao_estudante">EMPRESA CADASTRADA FAÇA SEU LOGIN</a></div>
+                  </div>
+              </div>
           </div>
-          <div className="col-md-4">
-              <a href="http://189.50.7.149:8080/wbc-st5/login.faces?uat=5" style={{color: 'black', width:300, marginBottom:20, marginLeft:60, backgroundColor:'#0094a2'}} className="botao_estudante">CARTÃO POPULAR RECARGA DE CRÉDITOS</a>
-              <a href="escola" style={{color: 'black', width:300, marginLeft:60, backgroundColor:'orange'}} className="botao_estudante">ESCOLA CADASTRO/RECADASTRO</a>
-          </div>
-          <div className="col-md-4">
-              <a href="http://expressolorenzutti.com.br/valeTransporte" style={{color: 'black', width:300, marginBottom:20, marginLeft:60, backgroundColor:'lightgreen'}} className="botao_estudante">CADASTRE AQUI A SUA EMPRESA</a>
-              <a href="http://189.50.7.149:8080/WebSigom/sltwebsigom" style={{color: 'black', width:300, marginLeft:60, backgroundColor:'lightgreen'}} className="botao_estudante">EMPRESA CADASTRADA FAÇA SEU LOGIN</a>
-          </div>
-          </div>
+
         </section>
         <section id="section-about" style={{background: '#f5f7f9'}}>
           <div className="container">

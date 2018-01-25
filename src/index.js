@@ -8,6 +8,7 @@ import Escola from './Escola'
 import ValeTransporte from './ValeTransporte'
 import Popular from './Popular'
 import Horarios from './Horarios'
+import Biometria from './Biometria'
 import DuvidasFrequentes from './DuvidasFrequentes'
 import TrabalheConosco from './TrabalheConosco'
 import Contato from './Contato'
@@ -55,6 +56,7 @@ ReactDOM.render(
           <Route exact path="/" component={Home}/>
           <Route path="/guaracard" component={Guaracard}/>
           <Route path="/estudante" component={Estudante}/>
+          <Route path="/biometria" component={Biometria}/>
           <Route path="/escola" component={Escola}/>
           <Route path="/valeTransporte" component={ValeTransporte}/>
           <Route path="/popular" component={Popular}/>

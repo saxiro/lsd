@@ -30,15 +30,7 @@ class Estudante extends Component {
             <div className="col-md-9">
               <div className="row">
                 <div className="col-md-9 col-md-offset-1 wow fadeInUp animated" data-wow-delay=".3s" style={{visibility: 'visible', animationDelay: '0.3s', animationName: 'fadeInUp', opacity: 0}}>
-                  <div className="col-md-12">
-                    <div style={{position: 'relative', overflow: 'hidden', padding: '1.85714286em', marginBottom: 30, background: '#fff', height: 120, borderRadius: 6, borderBottom: '4px solid #3bb3c3'}}>
-                      <a href="http://189.50.7.149:9090/WebCadastramento/LoginAluno.xhtml" target="_blank">
-                        <h3><span className="id-color">Cadastramento do Estudante</span></h3>
-                        Acessar novo cadastro
-                      </a>
-                      <div className="spacer-single" />
-                    </div>
-                  </div>
+                  
                   <h2>Documentação:</h2>
                   <p>De posse da ficha impressa e assinada pela escola, o estudante ou seu representante legal deve apresentar-se a guichê de venda, situado na Av. Drº Roberto Calmon – 318 - centro – Guarapari – ES, com a seguinte documentação:<br /><br />
                     • Uma foto 3X4, frontal e recente, sem marcas, carimbos, frases, números ou datas de qualquer natureza, cortes ou manchas. Não serão aceitas fotografias de pessoas sorrindo ou com óculos esporte;<br />

@@ -27,18 +27,9 @@ class ValeTransporte extends Component {
               <div className="col-md-12">
                 <div className="row">
                   <div className="col-md-12 wow fadeInUp animated" data-wow-delay=".3s" style={{visibility: 'visible', animationDelay: '0.3s', animationName: 'fadeInUp', opacity: 0}}>
-                    <div className="col-md-4 hidden-lg-up" />
-                    <div className="col-md-4">
-                      <div style={{position: 'relative', overflow: 'hidden', padding: '1.85714286em', marginBottom: 30, background: '#fff', height: 120, borderRadius: 6, borderBottom: '4px solid #3bb3c3'}}>
-                        <a href="http://189.50.7.149:8080/WebSigom/sltwebsigom" target="_blank">
-                          <h3><span className="id-color">Peça o seu vale transporte</span></h3>
-                          Faça o seu pedido
-                        </a>
-                        <div className="spacer-single" />
-                      </div>
-                    </div>
+                    
                     <div className="col-md-12" style={{textAlign: 'center'}}>
-                      <h2>Observações:</h2>
+                      <h2><div style={{width:300, margin:'auto'}}><a href="#" style={{color: 'black', width:300, marginBottom:20, backgroundColor:'#9dc3e7'}} className="botao_estudante">FORMULÁRIOS</a></div></h2>
                       <p><a href="assets/formularios/Autorização de controle - Expresso Lorenzutti.xls">Autorização de Controle</a>
                         <br />
                         <a href="assets/formularios/Formulario de parametrização - Expresso Lorenzutti.xls">Formulário de Parametrização</a>

@@ -9,7 +9,7 @@ class Escola extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <h1>Estudante</h1>
+              <h1>Escola</h1>
               <ul className="crumb">
                 <li><a href="index">Home</a></li>
                 <li className="sep">/</li>
@@ -25,20 +25,12 @@ class Escola extends Component {
         <div className="container">
           <div className="row">
             <div id="sidebar" className="col-md-3 wow fadeInUp animated" style={{visibility: 'visible', animationName: 'fadeInUp', opacity: 0}}>
-              <a href="http://189.50.7.149:9090/WebCadastramento/LoginEscola.xhtml" style={{color: 'black', width:300, marginLeft:60, backgroundColor:'orange'}} className="botao_estudante">CADASTRAMENTO RECADASTRAMENTO</a>
+              <a href="http://189.50.7.149:9090/WebCadastramento/LoginEscola.xhtml" style={{color: 'black', width:300, marginLeft:30, backgroundColor:'orange'}} className="botao_estudante">CADASTRAMENTO RECADASTRAMENTO</a>
             </div>
             <div className="col-md-9">
               <div className="row">
                 <div className="col-md-9 col-md-offset-1 wow fadeInUp animated" data-wow-delay=".3s" style={{visibility: 'visible', animationDelay: '0.3s', animationName: 'fadeInUp', opacity: 0}}>
-                  <div className="col-md-12">
-                    <div style={{position: 'relative', overflow: 'hidden', padding: '1.85714286em', marginBottom: 30, background: '#fff', height: 120, borderRadius: 6, borderBottom: '4px solid #3bb3c3'}}>
-                      <a href="http://189.50.7.149:9090/WebCadastramento/LoginEscola.xhtml" target="_blank">
-                        <h3><span className="id-color">Cadastramento da Escola</span></h3>
-                        Acessar novo cadastro
-                      </a>
-                      <div className="spacer-single" />
-                    </div>
-                  </div>
+
                   <h2>Observações:</h2>
                   <p>A C. Lorenzutti Participações Ltda, iniciou o processo de cadastramento das escolas através do Sistema de Bilhetagem Eletrônica e para isso será necessário que o responsável da escola acesse a página de internet e preencha o cadastro.
                     <br /><br />

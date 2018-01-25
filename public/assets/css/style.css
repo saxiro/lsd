@@ -5267,8 +5267,3 @@ display:table;
 .botao_estudante a {
 	color: black!important;
 }
-.posicao_botoes{
-	position:absolute;
-	margin-top:-280px;
-	z-index: 99;
-}
