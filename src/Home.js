@@ -45,14 +45,15 @@ class Home extends Component {
                           <img src="assets/images-slider/card1.jpg" />
                       </div>
                   </div>
+
                   <div className="col-md-4">
                       <div style={{width:300, margin:'auto'}}>
-                          <img src="assets/images-slider/card2.jpg" />
+                          <img src="assets/images-slider/card3.jpg" />
                       </div>
                   </div>
                   <div className="col-md-4">
                       <div style={{width:300, margin:'auto'}}>
-                          <img src="assets/images-slider/card3.jpg" />
+                          <img src="assets/images-slider/card2.jpg" />
                       </div>
                   </div>
               </div>

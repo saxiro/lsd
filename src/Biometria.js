@@ -42,9 +42,9 @@ class Biometria extends Component {
                             <b><a style={{color:'blue'}} href="mailto:faleconosco@expressolorenzutti.com.br">faleconosco@expressolorenzutti.com.br</a></b>
                       </p>
                       <div className="col-md-12">
-                        <div style={{width:400,height:300, backgroundColor:'red',margin:'auto'}}>
-
-                        </div>
+                            <div style={{width: 560, margin:'auto'}}>
+                              <iframe width="560" height="315" src="https://www.youtube.com/embed/iSpXbef9XXk?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </div>
                       </div>
                     </div>
                   </div>
